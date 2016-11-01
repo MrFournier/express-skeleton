@@ -1,5 +1,7 @@
 express-skeleton
 
+  A basic express skeleton with functioning users, via passport. To be cloned and used for your convience.
+
 # Development
 
 Clone and install dependencies:
