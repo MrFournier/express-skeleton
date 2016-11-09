@@ -7,6 +7,6 @@ express-skeleton
 Clone and install dependencies:
 
 ```
-git clone https://github.com/RaphaelDeLaGhetto/express-skeleton-mongoose.git
+git clone git@github.com:MrFournier/express-skeleton.git
 cd express-skeleton-mongoose && npm install
 ```
