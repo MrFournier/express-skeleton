@@ -20,7 +20,7 @@ var app = express();
 // configuration 
 mongoose.connect(configDB.url); // connect to database
 
-// require('./config/passport')(passport); // pass passport for configuration
+require('./config/passport')(passport); // pass passport for configuration
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
