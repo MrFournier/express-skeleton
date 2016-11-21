@@ -1,9 +1,11 @@
-// var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
 module.exports = {
-  // this will probably break everything but I can't find any info
-  // on this string being created as an issue
-  url = mongoose.connect('mongodb://localhost/dbname', function(err){
-    if (err) throw err;
-  });
+  // connection url for online database
+  'url' : '' // Put you connection settings here
+
+  // To use a local mongodb use command `mongod` in a terminal window to start mongo
+  // connection for local mongo database
+  // 'url' : 'mongodb://localhost/dbname'
+
 }
