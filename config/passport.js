@@ -89,7 +89,7 @@ module.exports = function(passport){
         }
 
         if(!user.validPassword(password)){
-          return done(nul, false req.fasle('loginMessage', 'Inncorrect password.'));
+          return done(nul, false, req.fasle('loginMessage', 'Inncorrect password.'));
         }
 
         return done(null, user);
